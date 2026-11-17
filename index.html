@@ -1,24 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tugas Anes | Beranda</title>
+    <title>Fan Page Catur - Halaman Beranda</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- Navigator Bar -->
     <nav class="navbar">
         <ul>
-            <li><a href="index.html">Beranda</a></li>
-            <li><a href="biodata.html">Biodata</a></li>
-            <li><a href="list.html">List</a></li>
-            <li><a href="table.html">Table</a></li>
+            <li><a href="index.html" class="active">Beranda</a></li>
+            <li><a href="biodata.html">Tugas Biodata</a></li>
+            <li><a href="list.html">Tugas List</a></li>
+            <li><a href="table.html">Tugas Table</a></li>
         </ul>
     </nav>
 
+    <!-- Konten Utama (Tahap Awal) -->
     <div class="wadah-utama">
-        <h1>Halaman Beranda</h1>
-        <p>Selamat datang di halaman Beranda</p>
+       
+        <!-- Bagian Header Halaman -->
+        <header class="header-halaman">
+            <h1>Fan Page Komunitas Catur</h1>
+            <p>Strategi, Taktik, dan Berita Terkini dari Dunia Catur</p>
+        </header>
+           
+            <!-- === LAYOUT 3 KOLOM === -->
+        <div class="baris">
+            
+            <!-- Kolom Kiri: Informasi Taktik dan Strategi -->
+            <div class="kolom kiri">
+                <h2>Taktik Dasar</h2>
+                <ul>
+                    <li><strong>Pin (Paku):</strong> Menjebak bidak lawan agar tidak bisa bergerak tanpa mengorbankan bidak yang lebih penting.</li>
+                    <li><strong>Fork (Garpu):</strong> Menyerang dua bidak sekaligus menggunakan satu perwira (sering kali kuda).</li>
+                    <li><strong>Skewer (Tusuk):</strong> Serangan garis lurus di mana bidak berharga tinggi terpaksa menyingkir, membiarkan bidak di belakangnya dimakan.</li>
+                </ul>
+                <p>Menguasai taktik dasar ini sangat membantu Anda memenangkan pertandingan di babak pertengahan (Middlegame).</p>
+
+                <h2>Prinsip Pembukaan</h2>
+                <ol>
+                    <li><strong>Kuasai Pusat:</strong> Tempatkan pion di petak tengah (d4/e4).</li>
+                    <li><strong>Aktifkan Perwira:</strong> Segera keluarkan Kuda dan Gajah.</li>
+                    <li><strong>Amankan Raja:</strong> Lakukan rokade secepat mungkin.</li>
+                </ol>
+            </div>
+
+            <!-- Kolom Tengah: Konten Utama & Gambar -->
+            <div class="kolom tengah">
+                <h2>Bermain di Chess.com</h2>
+                <img src="catur.png" alt="Ilustrasi Catur Chess.com">
+                <p>Bermain catur secara rutin dapat melatih logika, pengambilan keputusan, dan kesabaran. Mari bergabung dengan klub catur sekolah kita dan ikuti turnamen mingguan yang diselenggarakan secara online melalui platform Chess.com.</p>
+                <p>Jangan lupa untuk berlatih memecahkan <i>puzzle</i> setiap hari agar visi taktis Anda semakin tajam!</p>
+            </div>
+
+            <!-- Kolom Kanan: Persiapan Tempat Statistik -->
+            <div class="kolom kanan">
+                <h2>Statistik Top GM</h2>
+                <p>Berdasarkan Rating Global Chess.com</p>
+            </div>
+
+        </div>
     </div>
+
+    <!-- === BAGIAN FOOTER === -->
+    <footer class="footer">
+        <p>&copy; 2026 Tugas Fan Page Catur - Dibuat untuk Ekstrakurikuler TIK. Gambar ilustrasi bersumber dari Chess.com.</p>
+    </footer>
+
 </body>
 </html>
